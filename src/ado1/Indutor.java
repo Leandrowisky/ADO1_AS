@@ -1,9 +1,9 @@
 package ado1;
 
-public class Chip extends Componente{
+public class Indutor extends Componente{
     private double preco;
 
-    public Chip(String nome, double preco) {
+    public Indutor(double preco, String nome) {
         super(nome);
         this.preco = preco;
     }
@@ -15,7 +15,7 @@ public class Chip extends Componente{
     public void setPreco(double preco) {
         this.preco = preco;
     }
-    
+
     @Override
     public void getInfo() {
         System.out.println("");

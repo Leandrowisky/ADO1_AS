@@ -1,11 +1,10 @@
 package ado1;
 
-public class Chip extends Componente{
+public class Capacitor extends Componente {
     private double preco;
 
-    public Chip(String nome, double preco) {
+    public Capacitor(String nome) {
         super(nome);
-        this.preco = preco;
     }
 
     public double getPreco() {
@@ -20,5 +19,6 @@ public class Chip extends Componente{
     public void getInfo() {
         System.out.println("");
     }
+    
     
 }
