@@ -3,8 +3,9 @@ package ado1;
 public class Capacitor extends Componente {
     private double preco;
 
-    public Capacitor(String nome) {
+    public Capacitor(double preco, String nome) {
         super(nome);
+        this.preco = preco;
     }
 
     public double getPreco() {

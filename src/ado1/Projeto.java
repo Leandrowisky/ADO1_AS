@@ -2,7 +2,7 @@ package ado1;
 
 import java.util.ArrayList;
 
-public class Projeto {
+public class Projeto implements ComponenteCommand{
     private String nome;
     private final ArrayList<IComponente> componentes = new ArrayList<>();
     
@@ -16,6 +16,11 @@ public class Projeto {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    @Override
+    public void mostrarComponentes() {
+        System.out.println("");
     }
     
 }
