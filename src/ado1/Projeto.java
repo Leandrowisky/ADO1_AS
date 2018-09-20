@@ -18,9 +18,21 @@ public class Projeto implements ComponenteCommand{
         this.nome = nome;
     }
 
+    public ArrayList<IComponente> getComponentes() {
+        return componentes;
+    }
+    
     @Override
     public void mostrarComponentes() {
-        System.out.println("");
+        System.out.println("Projeto " + this.nome);
+        
+        System.out.println("=============Componentes==============");
+        
+        for (IComponente componente : componentes) {
+            componente.getInfo();
+        }
+        
+        System.out.println("================================");
     }
     
 }

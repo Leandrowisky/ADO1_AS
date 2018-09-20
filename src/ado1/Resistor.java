@@ -18,6 +18,6 @@ public class Resistor extends Componente{
 
     @Override
     public void getInfo() {
-        System.out.println("");
+        System.out.println("Resistor: Nome: " + this.getNome() + " Preço: " + this.preco);
     }
 }

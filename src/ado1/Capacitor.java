@@ -18,7 +18,7 @@ public class Capacitor extends Componente {
     
     @Override
     public void getInfo() {
-        System.out.println("");
+        System.out.println("Capacitor: Nome: " + this.getNome() + " Preço: " + this.preco);
     }
     
     

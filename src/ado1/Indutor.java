@@ -18,7 +18,7 @@ public class Indutor extends Componente{
 
     @Override
     public void getInfo() {
-        System.out.println("");
+        System.out.println("Indutor: Nome: " + this.getNome() + " Preço: " + this.preco);
     }
     
 }

@@ -15,7 +15,14 @@ public class Placa extends Componente{
     
     @Override
     public void getInfo() {
-        System.out.println("");
+        System.out.println("Placa: " + this.getNome());
+        System.out.println("=============Placas==============");
+        
+        for (IComponente componente : componentes) {
+            componente.getInfo();
+        }
+
+        System.out.println("================================");
     }
     
     

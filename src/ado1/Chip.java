@@ -18,7 +18,7 @@ public class Chip extends Componente{
     
     @Override
     public void getInfo() {
-        System.out.println("");
+        System.out.println("Chip: Nome: " + this.getNome() + " Preço: " + this.preco);
     }
     
 }
